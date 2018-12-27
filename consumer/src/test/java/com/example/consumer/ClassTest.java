@@ -41,7 +41,7 @@ public class ClassTest {
 //                .andExpect(MockMvcResultMatchers.status().isOk());
 //                //.andExpect(MockMvcResultMatchers.jsonPath("code", Is.is("200")));
 
-        mvc.perform(MockMvcRequestBuilders.get("/consumer/user1").param("name","李四"))
+        mvc.perform(MockMvcRequestBuilders.get("/consumer/user3").param("name","张三"))
                 .andExpect(MockMvcResultMatchers.status().isOk());
                // .andExpect(MockMvcResultMatchers.jsonPath("code", Is.is("200")));
         System.out.println("111111111");

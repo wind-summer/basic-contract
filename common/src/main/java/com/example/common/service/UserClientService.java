@@ -17,5 +17,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface UserClientService {
 
     @GetMapping("/system/user")
-    public User getUser(@RequestParam String name);
+    public User getUser(@RequestParam("name") String name);
 }
