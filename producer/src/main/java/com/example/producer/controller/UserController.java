@@ -21,4 +21,10 @@ public class UserController {
         User user = new User().setId(1L).setAge(15).setName(name).setSex("男").setRemark(".....");
         return user;
     }
+
+    @GetMapping("/system/user2")
+    public User getUser2(@RequestParam String name){
+        User user = new User().setId(1L).setAge(15).setName(name).setSex("女").setRemark(".....");
+        return user;
+    }
 }

@@ -5,7 +5,7 @@ Contract.make {
         method 'GET'
         url('/system/user') {
             queryParameters {
-                parameter("name", "张三")
+                parameter("name", "李四")
             }
         }
 
@@ -15,9 +15,9 @@ Contract.make {
         body("""
     {
         "id":1,
-        "name":"张三",
+        "name":"李四",
         "age":15,
-        "sex":"男",
+        "sex":"女",
         "remark":"....."
     }
   """)
