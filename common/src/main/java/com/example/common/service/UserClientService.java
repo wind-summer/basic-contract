@@ -2,6 +2,7 @@ package com.example.common.service;
 
 import com.example.common.entity.User;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 

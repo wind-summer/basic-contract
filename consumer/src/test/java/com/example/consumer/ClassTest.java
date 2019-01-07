@@ -1,5 +1,6 @@
 package com.example.consumer;
 
+import com.example.common.service.UserClientService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,9 @@ public class ClassTest {
 
 //    @Autowired
 //    private RestTemplate restTemplate;
+
+//    @Autowired
+//    private UserClientService userClientService;
 
     @Autowired
     private MockMvc mvc;
